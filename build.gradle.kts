@@ -25,6 +25,8 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     developmentOnly("org.springframework.boot:spring-boot-docker-compose")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+
+    implementation("com.github.loki4j:loki-logback-appender:1.5.1")
 }
 
 tasks.withType<KotlinCompile> {
