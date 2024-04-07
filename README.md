@@ -21,7 +21,7 @@ class OncePerRequestFilterImpl : OncePerRequestFilter() {
 
 <message>
     <pattern>
-        {"level":"%level", "class":"%logger{36}", "method":"%class{36}.%M", "transactionId": "%X{transactionId}", "thread":"%thread", "message":
+        {"level":"%level", "class":"%logger{36}", "method":"%class{36}.%M", "transactionId":"%X{transactionId}", "thread":"%thread", "message":
         "%message", "requestId": "%X{X-Request-ID}"}
     </pattern>
 </message>
